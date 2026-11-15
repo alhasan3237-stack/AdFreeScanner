@@ -17,3 +17,6 @@ __pycache__/
 
 # Personal Claude Code settings
 .claude/settings.local.json
+
+# Stray empty repository made by GitHub Desktop (safe to delete)
+/AdFreeScanner/
