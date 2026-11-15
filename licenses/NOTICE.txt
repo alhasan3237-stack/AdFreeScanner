@@ -1,0 +1,6 @@
+This app includes a neural network (app/src/main/assets/docquad.onnx) derived from
+DocQuadNet-256 in MakeACopy (https://github.com/egdels/makeacopy), Copyright the MakeACopy
+authors, licensed under the Apache License 2.0 (see MakeACopy-LICENSE.txt).
+Changes: converted from ONNX Runtime format to standard ONNX for OpenCV, and fine-tuned on
+24,000 generated document scenes. Original model trained on SmartDoc 2015 (CC BY 4.0),
+UVDoc and DTD data, as described in the MakeACopy repository.

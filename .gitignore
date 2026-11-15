@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.keystore
+*.jks
+
+# Python caches from the tools scripts
+__pycache__/
+*.pyc
+
+# Personal Claude Code settings
+.claude/settings.local.json

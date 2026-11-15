@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App icon: a page inside scan corners. 108dp canvas, art kept in the middle 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,36h18l8,8v28a2,2 0,0 1,-2 2H42a2,2 0,0 1,-2 -2V38a2,2 0,0 1,2 -2z" />
+    <path
+        android:fillColor="#0B6E68"
+        android:pathData="M45,50h18v2.5H45zM45,56h18v2.5H45zM45,62h12v2.5H45z" />
+    <!-- scan corners -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,38v-6a2,2 0,0 1,2 -2h6M70,30h6a2,2 0,0 1,2 2v6M78,70v6a2,2 0,0 1,-2 2h-6M38,78h-6a2,2 0,0 1,-2 -2v-6" />
+</vector>
